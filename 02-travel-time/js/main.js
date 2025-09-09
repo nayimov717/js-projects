@@ -15,9 +15,7 @@ distanceButton.addEventListener("click", () => {
     alert("Iltimos, to'g'ri masofani kiriting.");
     return;
   }
-  
-  results.style.display = "flex";
-  
+    
   document.getElementById("walk-time").textContent = calculateTime( distance, PERSON_SPEED);
   document.getElementById("bicycle-time").textContent = calculateTime( distance, BICYCLE_SPEED);
   document.getElementById("car-time").textContent = calculateTime(distance, CAR_SPEED);
