@@ -1,11 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Travel Time</title>
-</head>
-<body>
-  
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="scss/main.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@mdi/font@7.4.47/css/materialdesignicons.min.css"
+    />
+    <title>Travel Time</title>
+  </head>
+  <body>
+    <div class="app">
+      <h1 class="app__title">Kim birinchi borishga!</h1>
+
+      <!-- Input distance -->
+      <div class="distance">
+        <label for="distance-input" class="distance__label">Masofa (km):</label>
+        <input
+          type="number"
+          class="distance__input"
+          placeholder="Masofani kiriting"
+        />
+        <button class="distance__button">Hisobla</button>
+      </div>
+
+      <!-- Results -->
+      <div class="results">
+        <div class="result-card">
+          <i class="mdi mdi-walk result-card__icon"></i>
+          <h2 class="result-card__title">Piyoda</h2>
+          <p class="result-card__time"><span id="walk-time">--</span></p>
+        </div>
+
+        <div class="result-card">
+          <i class="mdi mdi-bicycle result-card__icon"></i>
+          <h2 class="result-card__title">Velosipedda</h2>
+          <p class="result-card__time"><span id="bicycle-time">--</span></p>
+        </div>
+
+        <div class="result-card">
+          <i class="mdi mdi-car result-card__icon"></i>
+          <h2 class="result-card__title">Mashina bilan</h2>
+          <p class="result-card__time"><span id="car-time">--</span></p>
+        </div>
+
+        <div class="result-card">
+          <i class="mdi mdi-airplane result-card__icon"></i>
+          <h2 class="result-card__title">Samolyotda</h2>
+          <p class="result-card__time"><span id="plane-time">--</span></p>
+        </div>
+      </div>
+    </div>
+
+    <script src="js/main.js"></script>
+  </body>
 </html>

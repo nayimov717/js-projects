@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  background-color: #f7f7f7;
+  color: #333;
+}
+
+.app {
+  padding: 100px 20px;
+  max-width: 1200px;
+  margin: auto;
+  text-align: center;
+}
+
+.app__title {
+  margin-bottom: 40px;
+  font-size: 36px;
+}
+
+.distance {
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+.distance__input {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 200px;
+}
+.distance__button {
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  background-color: #28a745;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.distance__button:hover {
+  background-color: #218838;
+}
+
+.results {
+  display: none;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.result-card {
+  background-color: white;
+  padding: 30px 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  width: 200px;
+  text-align: center;
+}
+.result-card__icon {
+  font-size: 48px;
+  color: #28a745;
+  margin-bottom: 10px;
+  display: block;
+}
+.result-card__title {
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+.result-card__time {
+  font-size: 20px;
+  color: #555;
+}/*# sourceMappingURL=main.css.map */

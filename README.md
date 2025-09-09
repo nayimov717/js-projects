@@ -3,6 +3,7 @@ This repository contains JavaScript-based projects that I have learned and compl
 
 
 - [`01-paint-project`](https://nayimov717.github.io/js-projects/01-paint-project)
+- [`02-travel-time`](https://nayimov717.github.io/js-projects/02-travel-time)
 
 
 ```bash
